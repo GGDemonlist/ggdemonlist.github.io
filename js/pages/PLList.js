@@ -120,7 +120,7 @@ export default {
                     <p> - Текстур-Паки которые могут облегчить игру, к примеру отображать хитбоксы режимов игры, препятствий и так далее НЕ одобрены листом. </p>
                     <p> - 2 Player уровни не вносятся. </p>
                     <p> - Альтернативные или твинк-аккаунты запрещены. </p>
-                    <p> - Мод "Click Between Frames" разрешен. </p>
+                    <p> - Мод "Click Between Frames" разрешен1. </p>
                     <p> </p>
                     <p> All credit goes to The Shitty list & WEGDPS List. GGDL is not affiliated with The Shitty list & WEGDPS List. </p>
                 </div>
