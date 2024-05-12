@@ -121,6 +121,7 @@ export default {
                     <p> - 2 Player уровни не вносятся. </p>
                     <p> - Альтернативные или твинк-аккаунты запрещены. </p>
                     <p> - Мод "Click Between Frames" разрешен. </p>
+                    <p> - Запрещается использовать два или больше мод меню (рекомендуется использовать OpenHack или QOLMod). </p>
                     <p> </p>
                     <p> All credit goes to The Shitty list & WEGDPS List. GGDL is not affiliated with The Shitty list & WEGDPS List. </p>
                 </div>
