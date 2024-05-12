@@ -16,8 +16,8 @@
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #37d33f;
-    --color-primary-disabled: #37d337;
+    --color-primary: #68d337;
+    --color-primary-disabled: #75d337;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -28,8 +28,8 @@
     --color-on-background: rgb(255, 255, 255);
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #6e37d3;
-    --color-primary-disabled: #6e37d3;
+    --color-primary: #3cd337;
+    --color-primary-disabled: #37d351;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
