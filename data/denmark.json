@@ -9,5 +9,11 @@
     "percentToQualify": 64,
     "password": "No Copy",
     "records": [
+        {
+            "user": "imasssaya",
+            "link": "https://youtu.be/uuW3ceNiPEA",
+            "percent": 100,
+            "hz": 165
+        }
     ]
 }
