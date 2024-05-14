@@ -144,3 +144,8 @@ input[type="checkbox"] {
 .toggle-shitty:not(:hover) img {
     display: none;
 }
+.parent {
+    display: flex;
+    justify-content: center;
+  }
+
