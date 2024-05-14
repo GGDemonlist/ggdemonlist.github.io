@@ -1,25 +1,21 @@
-import { store } from '../main.js';
-import { embed } from '../util.js';
-import { score } from '../score.js';
-import { fetchEditors, fetchPLList } from '../content.js';
+import Spinner from "../components/Spinner.js";
 
-import Spinner from '../components/Spinner.js';
-import LevelAuthors from '../components/List/LevelAuthors.js';
-
-const roleIconMap = {
-	owner: 'crown',
-	admin: 'user-gear',
-	seniormod: 'user-shield',
-	mod: 'user-lock',
-	dev: 'code'
-};
 export default {
-    components: {HTMLAllCollection},
+    components: {
+        Spinner,
+    },
+    data: () => ({
+        loading: true,
+    }),
     template: `
-    </body>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ8gTtEZopyL2P8Ck0pYtiYciylaNia1PXowUDYgz0KyXUzQ/viewform?embedded=true" width="540" height="1332" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
-    <body>
-    `
-
-
+        <main v-if="loading" class="surface">
+            <Spinner></Spinner>
+        </main>
+        <main v-else class="form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ8gTtEZopyL2P8Ck0pYtiYciylaNia1PXowUDYgz0KyXUzQ/viewform?embedded=true" width="640" height="1332" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+        </main>
+    `,
+    async mounted() {
+        this.loading = false;
+    }
 }
