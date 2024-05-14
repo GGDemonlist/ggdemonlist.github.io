@@ -9,5 +9,11 @@
     "percentToQualify": 52,
     "password": "No Copy",
     "records": [
+        {
+            "user": "bull2k",
+            "link": "https://youtu.be/N134vP9lzLc?si=Rjj3u5THhzPZSoWJ&t=206",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
