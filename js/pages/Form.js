@@ -11,8 +11,7 @@ export default {
         <main v-if="loading" class="surface">
             <Spinner></Spinner>
         </main>
-        <main v-else class="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ8gTtEZopyL2P8Ck0pYtiYciylaNia1PXowUDYgz0KyXUzQ/viewform?embedded=true" width="640" height="1332" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ8gTtEZopyL2P8Ck0pYtiYciylaNia1PXowUDYgz0KyXUzQ/viewform?embedded=true" width="640" height="1332" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
         </main> 
     `,
     async mounted() {
