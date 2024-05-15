@@ -26,10 +26,10 @@ h1::after,
 h2,
 .type-h2,
 .type-headline-md {
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 34.2857142857px;
     line-height: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: -1px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
