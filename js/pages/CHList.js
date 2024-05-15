@@ -42,31 +42,31 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Видео с верификацией</span>
+                            <span class="type-label-lg">Verification Video</span>
                         </button>
                         <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
-                            <span class="type-label-lg">Шоукейс</span>
+                            <span class="type-label-lg">Showcase</span>
                         </button>
                     </div>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Очков за прохождение</div>
+                            <div class="type-title-sm">Points for passing</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Айди уровня</div>
+                            <div class="type-title-sm">Level ID</div>
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Пароль</div>
-                            <p>{{ level.password || 'Свободное копирование' }}</p>
+                            <div class="type-title-sm">Password</div>
+                            <p>{{ level.password || 'Free to copy' }}</p>
                         </li>
                     </ul>
-                    <h2>Рекорды</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> или больше для попадания в рекорды</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> или больше для попадания в рекорды</p>
-                    <p v-else>Этот уровень не принимает новые рекорды.</p>
+                    <h2>Records</h2>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or more to qualify</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or more to qualify</p>
+                    <p v-else>This level is not submitting new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -94,7 +94,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <template v-if="editors">
-                        <h3>Редакторы листа</h3>
+                        <h3>List Editors</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${(store.dark || store.shitty) ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -103,7 +103,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3> Правила </h3>
+                    <h3> Rules </h3>
                     <p> Когда вы отправляете рекорд убедитесь что соблюдайте эти правила:</p>
                     <p> - Прохождение должно быть записано на запись. </p>
                     <p> - Должна быть сырая запись (Рау футаж) прохождения (нужно только для уровней сложности от Хард Демона). </p>
