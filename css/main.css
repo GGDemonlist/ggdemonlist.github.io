@@ -158,14 +158,14 @@ input[type="checkbox"] {
 	font-weight: 600;
 	text-decoration: none;
 	color: #00ff55;
-	background-color: #e7f3ff;
+	background-color: #ffffff;
 	cursor: pointer;
 	user-select: none;
 	appearance: none;
 	touch-action: manipulation;
 }
 .btnform:focus-visible {
-	box-shadow: 0 0 0 2px #666;
+	box-shadow: 0 0 0 2px #c2c2c2;
 }
 .btnform:hover {
 	background-color: #DBE7F2;
