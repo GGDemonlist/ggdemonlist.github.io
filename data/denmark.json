@@ -3,12 +3,18 @@
     "name": "Denmark",
     "author": "kondukton",
     "creators": ["kondukton"],
-    "verifier": "imasssaya",
-    "verification": "https://youtu.be/uuW3ceNiPEA",
+    "verifier": "Aisho",
+    "verification": "https://youtu.be/YsIhP_kppIo",
     "showcase": "https://youtu.be/RMqZ-ZNcnog",
     "percentToQualify": 64,
     "password": "No Copy",
     "records": [
+        {
+            "user": "imasssaya",
+            "link": "https://youtu.be/uuW3ceNiPEA",
+            "percent": 100,
+            "hz": 165
+        },
         {
             "user": "bull2k",
             "link": "https://youtu.be/O17Fkluj4Ts?si=WxknDqw__GE016AY",
