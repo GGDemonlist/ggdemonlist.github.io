@@ -1,0 +1,18 @@
+{
+    "id":782 ,
+    "name": "Sunder",
+    "author": "CBOteam",
+    "creators": ["CBOteam"],
+    "verifier": "CBOteam",
+    "verification": "https://youtu.be/XmtwxCJqEoU?si=bSbAx8PE1ggNGbA2",
+    "showcase": "https://youtu.be/RMqZ-ZNcnog",
+    "percentToQualify":60 ,
+    "records": [
+        {
+            "user": "imasssaya",
+            "link": "https://youtu.be/8yemxJXPR9Q",
+            "percent": 100,
+            "hz": 165
+        }
+    ]
+}

@@ -10,16 +10,16 @@
     "password": "No Copy",
     "records": [
         {
-            "user": "Gregoriah",
-            "link": "https://youtu.be/dZV23GuokdE",
-            "percent": 100,
-            "hz": 60
-        },
-        {
             "user": "Aisho",
             "link": "https://drive.google.com/file/d/1wsHdczqSixpGck_WuFSnzp6g4o124M59/view?usp=sharing",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Gregoriah",
+            "link": "https://youtu.be/dZV23GuokdE",
+            "percent": 100,
+            "hz": 60
         },
         {
             "user": "sooga07",
@@ -38,6 +38,12 @@
             "link": "https://youtu.be/O17Fkluj4Ts?si=WxknDqw__GE016AY",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Fugy",
+            "link": "https://www.youtube.com/watch?v=XFXtXYR4ACU",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
