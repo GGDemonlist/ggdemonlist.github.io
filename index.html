@@ -27,7 +27,6 @@
     <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
     <script type="module" src="/js/main.js"></script>
-    <script src="/js/dropdown.js"></script>
 </head>
 <body id="app">
     <div class="root" :class="{ dark: store.dark }">
@@ -36,7 +35,8 @@
                 <img src="/WEGDPSLIST.png" alt="logo" />
             </div>
             <div class="dropdown">
-                <input class="text-box" type="text" placeholder="Выбрать лист" readonly>
+                <script src="/js/dropdown.js"></script>
+                <button class="text-box" type="text" placeholder="Выбрать лист" readonly>
                 <div class="options">
                   <div onclick="show('/')">DemonList</div>
                   <div onclick="show('/ch')">Challenge List</div>
