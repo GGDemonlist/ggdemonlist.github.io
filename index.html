@@ -29,21 +29,21 @@
     <script type="module" src="/js/main.js"></script>
 </head>
 <body id="app">
-    <script src="/js/dropdown.js"></script>
     <div class="root" :class="{ dark: store.dark }">
         <header class="surface">
             <div class="logo">
                 <img src="/WEGDPSLIST.png" alt="logo" />
             </div>
-            <nav class="nav">
-                <div class="dropdown">
-                    <input class="text-box" type="text" placeholder="Выбрать лист" readonly>
-                    <div class="options">
-                      <div onclick="show('/')">DemonList</div>
-                      <div onclick="show('/ch')">Challenge List</div>
-                      <div onclick="show('/pl')">Platformer List</div>
-                    </div>
+            <div class="dropdown">
+                <script src="/js/dropdown.js"></script>
+                <input class="text-box" type="text" placeholder="Выбрать лист" readonly>
+                <div class="options">
+                  <div onclick="show('/')">DemonList</div>
+                  <div onclick="show('/ch')">Challenge List</div>
+                  <div onclick="show('/pl')">Platformer List</div>
                 </div>
+            </div>
+            <nav class="nav">
                 <div class="nav__actions">
                     <router-link class="btnform" to="/form">
                         <span class="type-button-lg">Send A Record</span>
