@@ -72,10 +72,9 @@ header.surface {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
     border-radius: 5em;
-    margin: 15px;
-    margin-right: 7px;
-    margin-left: 7px;
-    ma
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-top: 15px;
 }
 @media screen and (min-width: 1366px) {
     header {
