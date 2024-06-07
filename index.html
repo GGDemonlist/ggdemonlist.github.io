@@ -36,11 +36,17 @@
             </div>
             <div class="dropdown">
                 <script src="/js/dropdown.js"></script>
-                <button class="text-box" type="text" placeholder="Выбрать лист" readonly>
+                <button class="text-box" class="nav__tab" type="text" placeholder="Выбрать лист" readonly>
                 <div class="options">
-                  <div onclick="show('/')">DemonList</div>
-                  <div onclick="show('/ch')">Challenge List</div>
-                  <div onclick="show('/pl')">Platformer List</div>
+                <router-link class="nav__tab" to="/">
+                  <div>DemonList</div>
+                </router-link>
+                <router-link class="nav__tab" to="/ch">
+                  <div>Challenge List</div>
+                </router-link>
+                <router-link class="nav__tab" to="/pl">
+                  <div>Platformer List</div>
+                </router-link>
                 </div>
             </div>
             <nav class="nav">
