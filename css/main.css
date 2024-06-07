@@ -152,7 +152,7 @@ input[type="checkbox"] {
 .btnform {
 	display: inline-block;	
 	box-sizing: border-box;
-	padding: 0 80px;
+	padding: 0 60px;
 	margin: 0 15px 15px 0;
 	outline: none;
 	border: none;  
