@@ -4,16 +4,20 @@
   }
   
   .dropdown-button {
-    background-color: #4CAF50;
     color: white;
     padding: 1rem;
-    border-radius: 24px;
     border: none;
     cursor: pointer;
     margin-left: 1rem;
     box-shadow: 0 1px 0.5rem 0 rgba(72, 255, 0, 0.5); 
     width: 400px;
     height: 400px;
+    margin-left: 1rem;
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 0.5rem 0 rgba(72, 255, 0, 0.5);
+    transition: transform 100ms ease;
   }
   
   .dropdown-content {
@@ -47,7 +51,5 @@
     text-decoration: none;
     border-radius: 8px;
   }
-  .dropdown:hover .dropdown-button{
-    transition: transform 100ms ease;
-  }
+
 
