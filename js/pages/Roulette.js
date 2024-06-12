@@ -25,9 +25,6 @@ export default {
                         <label for="challenge">Челлендж лист</label>
                     </div>
                     <div class="check">
-                    <input type="checkbox" id="platformer" value="Платформер лист" v-model="usePlatformerList">
-                    <label for="platformer">Платформер лист</label>
-                    </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
