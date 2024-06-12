@@ -10,8 +10,8 @@
     cursor: pointer;
     margin-left: 1rem;
     box-shadow: 0 1px 0.5rem 0 rgba(72, 255, 0, 0.5); 
-    width: 400px;
-    height: 400px;
+    width: 150px;
+    height: 100px;
     margin-left: 1rem;
     background-color: var(--color-on-primary);
     color: var(--color-primary);
