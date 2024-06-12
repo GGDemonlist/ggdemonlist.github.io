@@ -109,7 +109,7 @@ export default {
         showRemaining: false,
         useMainList: true,
         useChallengeList: true,
-        usePlatformerList: true,
+        usePlatformerList: false,
         toasts: [],
         fileInput: undefined,
     }),
