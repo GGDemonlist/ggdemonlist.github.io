@@ -15,12 +15,12 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: #00000048;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 20px;
-    opacity: 0.4;
+
   }
   
   .dropdown:hover .dropdown-content {
