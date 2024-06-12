@@ -1,7 +1,7 @@
 h1,
 .type-h1,
 .type-headline-lg {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 51.4285714286px;
     line-height: 52px;
     font-weight: 700;
@@ -26,7 +26,7 @@ h1::after,
 h2,
 .type-h2,
 .type-headline-md {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 34.2857142857px;
     line-height: 40px;
     font-weight: bolder;
@@ -233,10 +233,10 @@ p::after,
 .shitty h1,
 .shitty .type-h1,
 .shitty .type-headline-lg {
-    font-family: "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 51.4285714286px;
     line-height: 52px;
-    font-weight: 700;
+    font-weight: 800;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 .shitty h1::before,
@@ -257,7 +257,7 @@ p::after,
 .shitty h2,
 .shitty .type-h2,
 .shitty .type-headline-md {
-    font-family: "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 34.2857142857px;
     line-height: 40px;
     font-weight: 700;
@@ -384,7 +384,7 @@ p::after,
 .shitty input[type="text"],
 .shitty input[type="number"],
 .shitty .type-label-lg {
-    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17.1428571429px;
     line-height: 20px;
     font-weight: bold;
