@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/e-cFuklXzGg",
     "showcase": "https://www.youtube.com/watch?v=RMqZ-ZNcnog",
     "percentToQualify":70 ,
-    "records": []
+    "records": [
+        {
+            "user": "GaTTeX",
+            "link": "https://youtu.be/y0TMvVrOI0g?si=qegVhFHZD5aq2RZJ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
