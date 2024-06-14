@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/form.css" />
+    <link rel="stylesheet" type="text/css" href="/css/dropdown.css" />
     <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
     <script type="module" src="/js/main.js"></script>
@@ -35,25 +36,28 @@
                 <img src="/WEGDPSLIST.png" alt="logo" />
             </div>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">Demon List</span>
-                </router-link>
-                <router-link class="nav__tab" to="/ch">
-                    <span class="type-label-lg">Challenge list</span>
-                </router-link>
-                <router-link class="nav__tab" to="/pl">
-                    <span class="type-label-lg">Platformer List</span>
-                </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
-                </router-link>
-                <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Roulette</span>
-                </router-link>
+                <!-- Щидевро дропдаун -->
+                <div class="dropdown">
+                    <button class="dropdown-button">Navigation</button>
+                    <div class="dropdown-content">
+                      <div class="category">
+                        <h3>Lists</h3>
+                        <div class="buttons">
+                          <router-link class="button" to="/">DemonList</router-link>
+                          <router-link class="button" to="/pl">PLList</router-link>
+                          <router-link class="button" to="/ch">CHList</router-link>
+                        </div>
+                      </div>
+                      <div class="category">
+                        <h3>Other</h3>
+                        <div class="buttons">
+                          <router-link class="button" to="/leaderboard">Leaderboard</router-link>
+                          <router-link class="button" to="/roulette">Roulette</router-link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 <div class="nav__actions">
-                    <router-link class="nav__cta" to="/form">
-                        <span class="type-button-lg">Send A Record</span>
-                    </router-link>
                     <button
                         class="nav__icon"
                         @click.prevent="store.toggleDark()"
@@ -66,6 +70,8 @@
                     <a class="nav__icon" href="https://discord.gg/evm4UVE4UZ">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
+                    <router-link class="nav__cta" to="/form">
+                        <span class="type-button-lg">Send A Record</span>
                 </div>
             </nav>
         </header>
