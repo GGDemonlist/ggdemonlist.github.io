@@ -1,0 +1,19 @@
+{
+    "id": 881,
+    "name": "Molten Wave",
+    "author": "DoloresKing",
+    "creators": ["DoloresKing"],
+    "verifier": "DoloresKing",
+    "verification": "",
+    "showcase": "https://youtu.be/RMqZ-ZNcnog",
+    "percentToQualify": 35,
+    "password": "No Copy",
+    "records": [
+        {
+            "user": "Fugy",
+            "link": "https://youtu.be/KBKIV56XAKc?feature=shared",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
