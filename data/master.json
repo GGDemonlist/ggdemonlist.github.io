@@ -8,6 +8,11 @@
     "showcase": "https://www.youtube.com/watch?v=RMqZ-ZNcnog",
     "percentToQualify": 52,
     "records": [
-
+        {
+            "user": "Fugy",
+            "link": "https://youtu.be/H5wLPyhHg24?si=1O_dE6aGTV1z8ooN",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
