@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/mKW-ZhVj7Ak",
     "showcase": "https://www.youtube.com/watch?v=RMqZ-ZNcnog",
     "percentToQualify":70 ,
-    "records": []
+    "records": [
+        {
+            "user": "Blytys",
+            "link": "https://youtu.be/CE867rtr85U",
+            "percent": 100,
+            "hz": 244
+        }
+    ]
 }

@@ -16,7 +16,7 @@
             "hz": 144
         },
         {
-            "user": "Prototype",
+            "user": "Gregoriah",
             "link": "https://youtu.be/dZV23GuokdE",
             "percent": 100,
             "hz": 60
@@ -50,6 +50,12 @@
             "link": "https://youtu.be/ldgtt-8FLXA?si=LcAZw6HOV33n70Hw",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Blytys",
+            "link": "https://youtu.be/bkHbjyLSF48",
+            "percent": 100,
+            "hz": 244
         }
     ]
 }
