@@ -3,16 +3,11 @@
     "name": "BLUE CIRCLES",
     "author": "MSPACE",
     "creators": ["MSPACE"],
-    "verifier": "?",
-    "verification": "",
+    "verifier": "Blytys",
+    "verification": "https://youtu.be/DHFLcYCQOK8",
     "showcase": "",
     "percentToQualify": 60,
     "records": [
-        {
-            "user": "Blytys",
-            "link": "https://youtu.be/DHFLcYCQOK8",
-            "percent": 100,
-            "hz": 244
-        }
+
     ]
 }
