@@ -13,28 +13,28 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar surface">
                 <p class="type-label-md" style="color: #aaa">
-                  Копия Extreme Demon Roulette от <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                  Copy of Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Демон лист" v-model="useMainList">
-                        <label for="main">Демон лист</label>
+                        <label for="main">DemonList</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Челлендж лист" v-model="useChallengeList">
-                        <label for="challenge">Челлендж лист</label>
+                        <label for="challenge">Challenge List</label>
                     </div>
                     <div class="check">
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    Рулетка сохраняется автоматически!
+                    Roullete is automaticaly save.
                 </p>
                 <form class="save">
-                    <p>Ручная загрузка/сохранение</p>
+                    <p>Custom load/Save</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Импорт</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Экспорт</Btn>
+                        <Btn @click.native.prevent="onImport">Import</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
                     </div>
                 </form>
             </div>
