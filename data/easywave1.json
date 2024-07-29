@@ -8,6 +8,11 @@
     "showcase": "",
     "percentToQualify": 100,
     "records": [
-
+        {
+            "user": "XLord",
+            "link": "https://youtu.be/ldy9vu5a3sg",
+           "percent": 100,
+            "hz": 144
+        }
     ]
 }
