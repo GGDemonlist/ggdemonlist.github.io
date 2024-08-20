@@ -8,6 +8,11 @@
     "showcase": "",
     "percentToQualify": 60,
     "records": [
-
+        {
+            "user": "invictapidoras",
+            "link": "https://youtu.be/Wm5Bg7VlWhY?si=Y1KPbRuuNO_LpVyx",
+            "percent": 100,
+            "hz": 165
+        }
     ]
 }
