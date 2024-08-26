@@ -9,4 +9,3 @@
     "percentToQualify": ,
     "records": []
 }
-45
