@@ -8,6 +8,12 @@
     "showcase": "",
     "percentToQualify": 100,
     "records": [
-        
+        {
+            "user": "GaTTeX",
+            "link": "https://youtu.be/JZJBCAyevuw?si=lmq_NrwGReHc0FIJ",
+            "percent": 100,
+            "hz": 60
+        }
     ]
+        
 }
