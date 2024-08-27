@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/koLShkd91ho?si=Yl8ddhlvB0JiFQKd&t=296",
     "showcase": "",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "muha",
+            "link": "https://youtu.be/upXfhvAJgnQ",
+           "percent": 100,
+            "hz": 144
+        }
+    ]
 }
