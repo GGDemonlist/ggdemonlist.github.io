@@ -1,0 +1,19 @@
+{
+    "id": 1564 ,
+    "name": "Fast Wave",
+    "author": "Muha",
+    "creators": ["Muha"],
+    "verifier": "Muha",
+    "verification": "https://youtu.be/GQcIsCPrhcI",
+    "showcase": "",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "GaTTeX",
+            "link": "https://youtu.be/JZJBCAyevuw?si=lmq_NrwGReHc0FIJ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+        
+}
